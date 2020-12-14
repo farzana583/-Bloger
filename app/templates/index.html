@@ -1,0 +1,32 @@
+{% extends 'base.html' %} {%block content%}
+<div class="container">
+    <div class="col-md-8">
+        <div>
+            <h2 style="font-size: 80px; font-family: 'Lobster', cursive;  padding-top: 40px; text-align: center;">
+                Welcome to Farnaz Blogs Website</h2>
+            <br><br>
+
+            <p class="text-center">{{blogQuote.quote}}</p>
+
+            <p class="text-center" ><b>~ {{blogQuote.author}} ~</b> </p>
+
+            
+                <a href="{{url_for( 'main.subscriber',uname=current_user.username)}} " style="text-decoration: none; ">JOIN US</a>
+          
+
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<style>
+    body{
+        background-image: url('../static/far1.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container{
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+</style>
+{%endblock%}
