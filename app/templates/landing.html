@@ -36,8 +36,8 @@
                         <a class="nav-item nav-link" href="{{ url_for('account') }}" style="color: white;">Profile</a>
                         <a class="nav-item nav-link" href="{{ url_for('logout') }}" style="color: white;">Logout</a>
                         {% else %}
-                        <a class="nav-item nav-link" href="{{ url_for('login') }}" style="color: white;">Sign In</a>
-                        <a class="nav-item nav-link" href="{{ url_for('register') }}" style="color: white;">Register</a>
+                        <a class="nav-item nav-link" href="{{ url_for('auth.login') }}" style="color: white;">Sign In</a>
+                        <a class="nav-item nav-link" href="{{ url_for('auth.register') }}" style="color: white;">Register</a>
                         {% endif %}
                     </div>
                 </div>
