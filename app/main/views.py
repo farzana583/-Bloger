@@ -104,7 +104,7 @@ def update_blog(id):
 @login_required
 def theblog():
     blogs = Blog.query.all()
-    return render_template('myblogs.html', blogs=blogs)
+    return render_template('blogs.html', blogs=blogs)
 
 
 @main.route('/view/<int:id>', methods=['GET', 'POST'])
