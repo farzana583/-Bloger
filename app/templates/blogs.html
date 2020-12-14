@@ -4,10 +4,12 @@
 
 
 <div class='container'>
-    <h1 style="margin: 5%; text-align: center; font-family: 'Lobster', cursive;">CREATE A BLOG</h1>
-    <div class="col-md-6">
-    </div>
-    <div class="col-md-6">
+
+    <h1 class="text-center" style="color: #fff;">CREATE A BLOG</h1>
+    <hr>
+    <p  class="text-center" style="font-size: 20px; line-height: 50px; color: #fff;">There is a very different aspect to your question, aside from the answers that you've been given. The verb "to share" means to give away a part of what you own to another Person <br> Share a Blog With us </p>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
         <div class="panel panel-default">
             <div class="panel-body">
                 {{wtf.quick_form(blog_form)}}
@@ -15,7 +17,15 @@
 
         </div>
     </div>
+    <div class="col-md-2"></div>
 </div>
-</div>
+<style>
+    body{
+        background-image: url('https://images.unsplash.com/photo-1607901880641-716e79fc17a5?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+</style>
 
 {% endblock %}
