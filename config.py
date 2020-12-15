@@ -12,7 +12,7 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME ='farzanaisaak@gmail.com'
-    MAIL_PASSWORD = 'Buley2241'
+    MAIL_PASSWORD = 'Salam2689'
     SENDER_MAIL = 'farzanaisaak@gmail.com'
     # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
